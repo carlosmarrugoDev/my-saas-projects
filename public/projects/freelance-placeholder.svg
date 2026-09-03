@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Vista previa de proyecto web</title>
+  <desc id="desc">Placeholder para la imagen del proyecto freelance</desc>
+  <rect width="1200" height="675" fill="#172126"/>
+  <path d="M0 535h1200v140H0z" fill="#22353a"/>
+  <circle cx="600" cy="280" r="110" fill="#79d9d0" opacity=".9"/>
+  <path d="M555 280h90M600 235v90" stroke="#172126" stroke-width="16" stroke-linecap="round"/>
+  <text x="600" y="570" fill="#dcebea" font-family="sans-serif" font-size="34" text-anchor="middle">Reemplaza esta imagen</text>
+</svg>

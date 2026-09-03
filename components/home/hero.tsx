@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { ArrowDown, Sparkles } from 'lucide-react'
-import { whatsappLink } from '@/lib/site'
 import { EASE } from '@/lib/motion'
 
 const container = {
@@ -57,16 +56,15 @@ export function Hero({ count }: { count: number }) {
 
         <motion.div variants={item} className="mt-9 flex flex-col items-center gap-3 sm:flex-row">
           <a
-            href="#proyectos"
+            href="/saas"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
           >
             Ver mis SaaS
             <ArrowDown className="h-4 w-4" />
           </a>
           <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contacto"
+            target="_self"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur transition-colors hover:border-primary/50"
           >
             Necesito una web
